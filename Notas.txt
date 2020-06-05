@@ -6,3 +6,25 @@ git status
 
 git status -s 
     solo muestra los archvos modificados
+
+git add <nombreArchivo>
+    agrega el archivo al staging area 
+
+git add .
+    agrega todos los archivos al stagin area
+
+git commit -m "mensaje"
+    para agregar un commit con mensaje
+
+git log
+    Para ver el historial de commits
+
+git log --oneline
+    ver el historial de commits en una sola linea 
+
+----------------------------------------------------------------
+
+VIAJES EN EL TIEMPO
+
+git reset --hard <IdCommit>
+    viajamos al commit que indiquemos pero borra los commits de adelante del que viajamos
