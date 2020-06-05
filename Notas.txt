@@ -28,3 +28,12 @@ VIAJES EN EL TIEMPO
 
 git reset --hard <IdCommit>
     viajamos al commit que indiquemos pero borra los commits de adelante del que viajamos
+
+----------------------------------------------------------------
+
+Agregar nuestro repo a git 
+
+    git remote add origin <url del repo>
+
+Hacemos un push de a nuestro repo
+    git push -u origin master
