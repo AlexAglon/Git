@@ -1,0 +1,8 @@
+git init
+    Nos ayuda a inicializar un nuevo repositorio local
+
+git status
+    Para ver que archivos no han sido registrados
+
+git status -s 
+    solo muestra los archvos modificados
