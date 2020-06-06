@@ -37,3 +37,36 @@ Agregar nuestro repo a git
 
 Hacemos un push de a nuestro repo
     git push -u origin master
+
+----------------------------------------------------------------
+Para jalar cambios de un repo remoto hacemos 
+
+    git pull 
+
+Detecta si hay un cambio en la nube y local y los deja igual 
+
+    git fetch
+
+----------------------------------------------------------------
+Tags
+
+Crear una tag y dejar un mensaje
+    git tag <nombreTag> -m "Mensaje"
+
+subir las tags 
+    git push --tags
+
+----------------------------------------------------------------
+
+BRANCH 
+
+Crear una nueva rama
+    git branch <NombreDeLaRama>
+
+mostrarnos en que ramas estamos
+    git branch
+
+Movernos a otra rama 
+    git checkout <NombreDeLaRama>
+
+
