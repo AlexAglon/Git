@@ -69,4 +69,16 @@ mostrarnos en que ramas estamos
 Movernos a otra rama 
     git checkout <NombreDeLaRama>
 
+eliminar rama  
+    git branch -d <NombreDeLaRama>
+
+----------------------------------------------------------------
+
+MERGE
+
+para unir 2 ramas necesitamos movernos a master 
+    git merge <NombreDeLaRama>
+
+una vez juntas es recomendable eliminar las ramas
+
 
